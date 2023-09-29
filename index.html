@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner for the week</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="tab">
+        <div id="tab1">
+            <button class="tablinks"
+                onclick="openDay(event, 'monday'); displayTodoList('monday', 'myUL')">Понеделник</button>
+        </div>
+
+        <div id="tab2">
+            <button class="tablinks"
+                onclick="openDay(event, 'tuesday'); displayTodoList('tuesday', 'myUL2')">Вторник</button>
+        </div>
+
+        <div id="tab3">
+            <button class="tablinks"
+                onclick="openDay(event, 'wednesday'); displayTodoList('wednesday', 'myUL3')">Сряда</button>
+        </div>
+
+        <div id="tab4">
+            <button class="tablinks"
+                onclick="openDay(event, 'thursday'); displayTodoList('thursaday', 'myUL4')">Четвъртък</button>
+        </div>
+
+        <div id="tab5">
+            <button class="tablinks"
+                onclick="openDay(event, 'friday'); displayTodoList('friday', 'myUL5')">Петък</button>
+        </div>
+
+        <div id="tab6">
+            <button class="tablinks"
+                onclick="openDay(event, 'saturday'); displayTodoList('saturday', 'myUL6')">Събота</button>
+        </div>
+
+        <div id="tab7">
+            <button class="tablinks"
+                onclick="openDay(event, 'sunday'); displayTodoList('sunday', 'myUL7')">Неделя</button>
+        </div>
+
+        <!-- monday logic -->
+        <div id="monday" class="tabcontent">
+            <h2>Понеделник</h2>
+            <div class="header">
+                <input type="text" id="myInput" placeholder="Цели...">
+                <span onclick="newElement('monday', 'myInput', 'myUL')" class="addBtn">Добави</span>
+            </div>
+            <ul id="myUL">
+            </ul>
+        </div>
+
+        <!-- tuesday logic -->
+        <div id="tuesday" class="tabcontent">
+            <h2>Вторник</h2>
+            <div class="header">
+                <input type="text" id="myInput2" placeholder="Цели...">
+                <span onclick="newElement('tuesday', 'myInput2', 'myUL2')" class="addBtn">Добави</span>
+            </div>
+            <ul id="myUL2">
+            </ul>
+        </div>
+
+        <!-- wednesday logic -->
+        <div id="wednesday" class="tabcontent">
+            <h2>Сряда</h2>
+            <div class="header">
+                <input type="text" id="myInput3" placeholder="Цели...">
+                <span onclick="newElement('wednesday', 'myInput3', 'myUL3')" class="addBtn">Добави</span>
+            </div>
+            <ul id="myUL3">
+            </ul>
+        </div>
+
+        <!-- thursday logic -->
+        <div id="thursday" class="tabcontent">
+            <h2>Четвъртък</h2>
+            <div class="header">
+                <input type="text" id="myInput4" placeholder="Цели...">
+                <span onclick="newElement('thursaday', 'myInput4', 'myUL4')" class="addBtn">Добави</span>
+            </div>
+            <ul id="myUL4">
+            </ul>
+            </style>
+        </div>
+
+        <!-- friday logic -->
+        <div id="friday" class="tabcontent">
+            <h2>Петък</h2>
+            <div class="header">
+                <input type="text" id="myInput5" placeholder="Цели...">
+                <span onclick="newElement('friday', 'myInput5', 'myUL5')" class="addBtn">Добави</span>
+            </div>
+            <ul id="myUL5">
+            </ul>
+        </div>
+
+        <!-- saturday logic -->
+        <div id="saturday" class="tabcontent">
+            <h2>Събота</h2>
+            <div class="header">
+                <input type="text" id="myInput6" placeholder="Цели...">
+                <span onclick="newElement('saturday', 'myInput6', 'myUL6')" class="addBtn">Добави</span>
+            </div>
+            <ul id="myUL6">
+            </ul>
+        </div>
+
+        <!-- sunday logic -->
+        <div id="sunday" class="tabcontent">
+            <h2>Неделя</h2>
+            <div class="header">
+                <input type="text" id="myInput7" placeholder="Цели...">
+                <span onclick="newElement('sunday', 'myInput7', 'myUL7')" class="addBtn">Добави</span>
+            </div>
+            <ul id="myUL7">
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
