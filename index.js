@@ -43,6 +43,7 @@ function saveTodoList(dayName) {
 
 // Display the to-do list
 function displayTodoList(dayName, ulSpace) {
+
   todoList = JSON.parse(localStorage.getItem(dayName)) || [];
   let ul = document.getElementById(ulSpace);
   ul.innerHTML = "";

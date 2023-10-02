@@ -1,0 +1,26 @@
+{
+  "name": "planner",
+  "version": "1.0.0",
+  "description": "This is a planner in which you can write your tasks for a week.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmiliyaShtereva/Planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmiliyaShtereva/Planner/issues"
+  },
+  "homepage": "https://github.com/EmiliyaShtereva/Planner#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "mongoose": "^7.5.3"
+  }
+}
