@@ -40,10 +40,11 @@ div {
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    height: 100%;
-    background-position: center;
+    height: 93%;
+    background-image: url("leaf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
   }
   
