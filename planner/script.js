@@ -13,12 +13,6 @@ function openDay(evt, dayName) {
     evt.currentTarget.className += " active";
 }
 
-// function changeColor(color) {
-//     let elem = document.getElementById('square');
-//     elem.style.backgroundColor = color;
-
-// }
-
 let todoList, dayName, ulSpace;
 
 // Add a new item to the to-do list
